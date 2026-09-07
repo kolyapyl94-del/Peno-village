@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Агрошеринг в Пено — приобретайте кусты, яблони и грядки, следите за урожаем и приезжайте в гости.">
+  <title>Пено — свой кусочек деревни</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="logo" href="#top">ПЕНО<span>•</span>ДЕРЕВНЯ</a>
+      <nav>
+        <a href="#garden">Что можно приобрести</a>
+        <a href="#how">Как это работает</a>
+        <a href="#house">Старый дом</a>
+      </nav>
+      <button class="cart-button" id="cartBtn">Корзина <b id="cartCount">0</b></button>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-photo"></div>
+      <div class="container hero-content">
+        <p class="eyebrow">Пено · Тверская область</p>
+        <h1>Свой кусочек<br><em>русской деревни</em></h1>
+        <p class="hero-text">Приобретите куст малины, яблоню или грядку — а мы посадим, вырастим и соберём урожай. Можно приехать в гости, помогать хозяйству или получать деньги от продажи урожая.</p>
+        <div class="hero-actions">
+          <a class="button button-dark" href="#garden">Выбрать растение</a>
+          <a class="text-link" href="#how">Как это работает →</a>
+        </div>
+      </div>
+      <div class="hero-stamp">растёт<br>на земле<br>в Пено</div>
+    </section>
+
+    <section class="story section">
+      <div class="container story-grid">
+        <div>
+          <p class="eyebrow">Живое хозяйство</p>
+          <h2>Не виртуальная ферма.<br>Настоящая земля.</h2>
+        </div>
+        <div class="story-copy">
+          <p>На участке стоит старый деревянный усадебный дом, а вокруг него — сад, огород и ягодники. Хозяйством каждый день занимается Дарья.</p>
+          <p>Вы можете наблюдать, как растёт именно ваш куст или грядка, приехать в Пено, познакомиться с хозяйством и своими руками помочь земле.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="products section" id="garden">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Выберите свою посадку</p>
+            <h2>Что будет расти для вас</h2>
+          </div>
+          <p>Цены ниже — пример. Замените их на свои перед запуском.</p>
+        </div>
+        <div class="product-grid" id="products"></div>
+      </div>
+    </section>
+
+    <section class="how section" id="how">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Просто и прозрачно</p>
+            <h2>Как это работает</h2>
+          </div>
+        </div>
+        <div class="steps">
+          <article class="step"><span>01</span><h3>Выбираете</h3><p>Куст, яблоню или грядку. На странице каждого объекта указаны срок выращивания и ориентировочная модель получения урожая.</p></article>
+          <article class="step"><span>02</span><h3>Оплачиваете</h3><p>После оплаты на сайте вам создаётся личная запись о вашем растении. В реальном проекте здесь подключается платёжный сервис.</p></article>
+          <article class="step"><span>03</span><h3>Дарья ухаживает</h3><p>Полив, прополка, подкормка, защита растений и сбор урожая — всё происходит на настоящем участке в Пено.</p></article>
+          <article class="step"><span>04</span><h3>Следите за ростом</h3><p>Добавляйте фотографии и новости о вашем участке. Пользователь видит, что происходит с его посадкой.</p></article>
+          <article class="step"><span>05</span><h3>Получаете урожай</h3><p>Можно выбрать получение части урожая, приехать за ним лично или договориться о доставке — условия задаются для каждого вида посадки.</p></article>
+          <article class="step"><span>06</span><h3>Или доход</h3><p>Если выбрана модель продажи урожая, после реализации ваша доля перечисляется пользователю согласно условиям проекта.</p></article>
+        </div>
+        <div class="note">Важно: урожайность и доход не гарантируются — они зависят от погоды, состояния растений и рыночной цены. Перед запуском проекта обязательно сформулируйте юридические условия участия и правила выплат.</div>
+      </div>
+    </section>
+
+    <section class="house section" id="house">
+      <div class="container house-grid">
+        <div class="house-image"></div>
+        <div class="house-copy">
+          <p class="eyebrow">Поможем сохранить дом</p>
+          <h2>Старый деревянный дом тоже хочет жить.</h2>
+          <p>На участке сохранился деревянный усадебный дом. Его можно поддержать отдельным пожертвованием — деньги пойдут на ремонт, восстановление и сохранение дома.</p>
+          <button class="button button-rust" id="donateBtn">Помочь дому</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="visit section">
+      <div class="container visit-inner">
+        <p class="eyebrow">Пено, Тверская область</p>
+        <h2>Приезжайте посмотреть,<br>как растёт ваше.</h2>
+        <p>В тёплый сезон можно договориться о визите на участок, погулять по саду и огороду и помочь хозяйству.</p>
+        <a class="button button-light" href="mailto:hello@example.ru">Связаться с Дарьей</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-grid">
+      <div><div class="logo">ПЕНО<span>•</span>ДЕРЕВНЯ</div><p>Агрошеринг в Тверской области.</p></div>
+      <div><a href="#how">Как это работает</a><a href="#house">Помочь дому</a><a href="mailto:hello@example.ru">Контакты</a></div>
+      <div><small>© 2026. Проект в разработке.<br>Замените этот текст на юридические данные.</small></div>
+    </div>
+  </footer>
+
+  <div class="modal" id="cartModal" aria-hidden="true">
+    <div class="modal-backdrop" data-close></div>
+    <div class="modal-card">
+      <button class="modal-close" data-close>×</button>
+      <p class="eyebrow">Ваш выбор</p>
+      <h2>Корзина</h2>
+      <div id="cartItems"></div>
+      <div class="cart-total"><span>Итого</span><strong id="cartTotal">0 ₽</strong></div>
+      <button class="button button-dark full" id="checkoutBtn">Перейти к оплате</button>
+      <p class="tiny">Кнопка подключается к вашему серверу оплаты. Не храните данные банковских карт на GitHub Pages.</p>
+    </div>
+  </div>
+
+  <div class="modal" id="donateModal" aria-hidden="true">
+    <div class="modal-backdrop" data-close></div>
+    <div class="modal-card">
+      <button class="modal-close" data-close>×</button>
+      <p class="eyebrow">Сохранение дома</p>
+      <h2>Помочь дому</h2>
+      <p>Выберите сумму пожертвования:</p>
+      <div class="donate-grid">
+        <button data-donate="500">500 ₽</button><button data-donate="1000">1 000 ₽</button>
+        <button data-donate="3000">3 000 ₽</button><button data-donate="5000">5 000 ₽</button>
+      </div>
+      <button class="button button-rust full" id="donatePay">Пожертвовать</button>
+      <p class="tiny">Для реального запуска подключите платёжный сервис на серверной стороне.</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000">
+<rect width="1600" height="1000" fill="#9a6654"/><circle cx="1250" cy="250" r="190" fill="#e2c77e" opacity=".35"/>
+<path d="M0 700 Q350 530 700 700 T1600 650 V1000 H0Z" fill="#40583c" opacity=".75"/>
+<text x="100" y="180" font-family="Georgia" font-size="64" fill="#fbf7ed">Клубника</text>
+<text x="100" y="260" font-family="Arial" font-size="28" fill="#fbf7ed">Замените этот файл своей фотографией</text></svg>
